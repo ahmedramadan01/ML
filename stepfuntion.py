@@ -19,8 +19,8 @@ index = 0
 for x in x_arr:
     # Ausgabe des Neurons berechnen und an Liste y anhaengen
     z = w*x
-    if(z >t and x_arr[index + 1] * w <= t):
-      print(x)
+    if(z >t and x_arr[index + 1] * w <= t): # sprung
+      print(x) 
     index+=1
     y_list.append(stufe(z,t))
 
