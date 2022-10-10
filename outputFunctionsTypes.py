@@ -64,6 +64,3 @@ def tanh_backward(z):
 plot(forward_functions=tanh_forward,
      backward_functions=tanh_backward,
      labels='Tanh')
-
-# Implementierung ueberpruefen
-interactive_check('tanh')
